@@ -12,7 +12,7 @@ const manifest = (): MetadataRoute.Manifest => ({
   lang: "en",
   icons: [
     {
-      src: "/public/icon.png",
+      src: "/icon.png",
       sizes: "any",
       type: "image/x-icon",
       purpose: "any",
