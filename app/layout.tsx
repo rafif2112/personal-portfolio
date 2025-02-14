@@ -63,6 +63,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="9236e765-3cf2-40fb-9a36-f7b38621acfa"></script>
+      </head>
       <body
         className={cn(
           "overflow-x-hidden bg-slate-100 dark:bg-primary ",
