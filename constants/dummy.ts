@@ -58,30 +58,34 @@ export const socials: LinksType = [
 
 export const skillsTools: SkillType = [
   { title: "VS Code", logo: "skills/vscode.png" },
-  { title: "Figma", logo: "skills/figma.png" },
   { title: "Git", logo: "skills/git.png" },
   { title: "GitHub", logo: "skills/github.png" },
   { title: "NPM", logo: "skills/npm.png" },
+  { title: "Laragon", logo: "skills/laragon.svg" },
+  { title: "Socket", logo: "skills/socket.png" },
+  { title: "XAMPP", logo: "skills/xampp.png" },
+  { title: "Vercel", logo: "skills/vercel.png" },
+  { title: "Vite", logo: "skills/vite.png" },
 ];
 
 export const skillsLanguage: SkillType = [
   { title: "HTML 5", logo: "skills/html.png" },
   { title: "CSS 3", logo: "skills/css.png" },
-  { title: "SASS", logo: "skills/sass.png" },
   { title: "JavaScript", logo: "skills/javascript.png" },
   { title: "TypeScript", logo: "skills/typescript.png" },
 ];
 
 export const skillsLibrary: SkillType = [
   { title: "Tailwind CSS", logo: "skills/tailwindcss.png" },
-  { title: "Framer Motion", logo: "skills/framer.png" },
+  { title: "Bootstrap", logo: "skills/bootstrap.png" },
   { title: "React JS", logo: "skills/react.png" },
-  { title: "Redux Toolkit", logo: "skills/redux.png" },
-  { title: "Next JS", logo: "skills/nextjs.png" },
 ];
 
 export const skillsFramework: SkillType = [
+  { title: "Next JS", logo: "skills/nextjs.png" },
   { title: "Laravel", logo: "skills/laravel.png" },
+  { title: "Flutter", logo: "skills/flutter.png" },
+  { title: "Vue JS", logo: "skills/vue.png" },
 ];
 
 export const aboutLinks: {

@@ -1,4 +1,4 @@
-import React from "react";
+import { skillsLanguage, skillsLibrary } from "@/constants/dummy";
 
 type Props = {};
 
@@ -8,20 +8,17 @@ export default function TerminalSkills({}: Props) {
       <div className="mb-4">
         <h6 className="text-accent_primary mb-2">Language :</h6>
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>TypeScript</li>
+          {skillsLanguage.map((skill, index) => (
+            <li key={index}>{skill.title}</li>
+          ))}
         </ul>
       </div>
       <div className="">
         <h6 className="text-accent_primary mb-2">Library :</h6>
         <ul>
-          <li>Tailwind CSS</li>
-          <li>Shadcn UI</li>
-          <li>Framer Motion</li>
-          <li>React JS</li>
-          <li>Next JS</li>
+          {skillsLibrary.map((skill, index) => (
+            <li key={index}>{skill.title}</li>
+          ))}
         </ul>
       </div>
     </div>

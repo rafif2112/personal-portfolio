@@ -27,7 +27,7 @@ export default function MainSection({}: Props) {
             I am a beginner in the world of programming
           </p>
           <Button className="!dark:text-dark mt-5 flex items-center gap-2 !bg-accent_primary shadow-2xl hover:!bg-accent_hover">
-            <a href="/download-myCV" download="myCV.pdf" className="flex gap-3">
+            <a href="/MuhamadRafif.pdf" download className="flex gap-3">
               Download CV
               <Download size={18} />
             </a>
