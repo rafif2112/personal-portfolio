@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { socials } from "@/constants/dummy";
 import { Download } from "lucide-react";
 import Image from "next/image";
-import AboutImage from "@/public/myprofile.jpg";
+import AboutImage from "@/public/mrafif.jpg";
 type Props = {};
 
 export default function page({}: Props) {

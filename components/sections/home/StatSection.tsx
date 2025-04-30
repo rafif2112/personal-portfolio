@@ -1,5 +1,5 @@
 import GithubStat from "@/components/features/gridcard/GithubStat";
-import LeetcodeStat from "@/components/features/gridcard/LeetcodeStat";
+// import LeetcodeStat from "@/components/features/gridcard/LeetcodeStat";
 import SkillGridCard from "@/components/features/gridcard/SkillGridCard";
 import WakatimeStat from "@/components/features/gridcard/WakatimeStat";
 
@@ -13,7 +13,7 @@ export default function StatSection({}: Props) {
         <GithubStat />
         <WakatimeStat />
       </div>
-      <LeetcodeStat />
+      {/* <LeetcodeStat /> */}
     </section>
   );
 }

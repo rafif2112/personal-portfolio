@@ -26,14 +26,16 @@ export default function ProjectCard({
             <GithubIcon size={18} />
             Repository
           </a>
-          <a
-            href={visit}
-            target="_blank"
-            className="hover:text-accent_primary flex items-center gap-2"
-          >
-            <Link2 size={18} />
-            Visit
-          </a>
+          {  visit === "" ? null : (
+            <a
+              href={visit}
+              target="_blank"
+              className="hover:text-accent_primary flex items-center gap-2"
+            >
+              <Link2 size={18} />
+              Visit
+            </a>
+          )}
         </div>
       </div>
     </div>

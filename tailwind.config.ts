@@ -20,9 +20,9 @@ module.exports = {
       colors: {
         primary: "#0c0d11",
         dark: "#1a1b20 ",
-        accent_primary: "#2dd4bf",
-        accent_secondary: "#34d399",
-        accent_hover: "#0f766e",
+        accent_primary: "#2D97D4FF",
+        accent_secondary: "#347BD3FF",
+        accent_hover: "#0F6076FF",
       },
       gridTemplateColumns: {
         "bento-lg": "1fr 1fr 1fr 1fr 0.5fr",

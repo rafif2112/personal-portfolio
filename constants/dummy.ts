@@ -49,21 +49,16 @@ export const socials: LinksType = [
     href: "https://www.instagram.com/rafiff.21/",
     Icon: Instagram,
   },
-  // {
-  //   name: "Youtube",
-  //   href: "https://www.youtube.com/@leviathanxid",
-  //   Icon: Youtube,
-  // },
 ];
 
 export const skillsTools: SkillType = [
-  { title: "VS Code", logo: "skills/vscode.png" },
+  // { title: "VS Code", logo: "skills/vscode.png" },
   { title: "Git", logo: "skills/git.png" },
   { title: "GitHub", logo: "skills/github.png" },
   { title: "NPM", logo: "skills/npm.png" },
-  { title: "Laragon", logo: "skills/laragon.svg" },
+  // { title: "Laragon", logo: "skills/laragon.svg" },
   { title: "Socket", logo: "skills/socket.png" },
-  { title: "XAMPP", logo: "skills/xampp.png" },
+  // { title: "XAMPP", logo: "skills/xampp.png" },
   { title: "Vercel", logo: "skills/vercel.png" },
   { title: "Vite", logo: "skills/vite.png" },
 ];
@@ -73,6 +68,7 @@ export const skillsLanguage: SkillType = [
   { title: "CSS 3", logo: "skills/css.png" },
   { title: "JavaScript", logo: "skills/javascript.png" },
   { title: "TypeScript", logo: "skills/typescript.png" },
+  { title: "PHP", logo: "skills/php.png" },
 ];
 
 export const skillsLibrary: SkillType = [
@@ -115,19 +111,40 @@ export const aboutLinks: {
 ];
 
 export const projects: ProjectType[] = [
-  {
-    title: "My Qur'an",
-    image: "projects/my-quran.png",
-    tags: ["React JS", "Tailwind CSS", "Flowbite", "Vite"],
-    gitHub: "https://github.com/Lviathannn/my-quran",
-    demo: "https://my-alquran-id.vercel.app/",
-  },
+  // {
+  //   title: "My Qur'an",
+  //   image: "projects/my-quran.png",
+  //   tags: ["React JS", "Tailwind CSS", "Flowbite", "Vite"],
+  //   gitHub: "https://github.com/Lviathannn/my-quran",
+  //   demo: "https://my-alquran-id.vercel.app/",
+  // },
   {
     title: "Portfolio laravel",
     image: "projects/portfolio-laravel.png",
     tags: ["Laravel", "Tailwind CSS", "Flowbite", "MySQL", "JavaScript"],
     gitHub: "https://github.com/rafif2112/portfolio-laravel",
     demo: "http://muhamadrafif.free.nf/?i=1",
+  },
+  {
+    title: "Rekap Absensi",
+    image: "projects/rekap-absensi.png",
+    tags: ["Laravel", "React JS", "Tailwind CSS", "Flowbite", "MySQL", "JavaScript"],
+    gitHub: "https://github.com/rafif2112/Rekapitulasi-Keterlambatan",
+    demo: "",
+  },
+  {
+    title: "Pengaduan Masyarakat",
+    image: "projects/pengaduan-masyarakat.png",
+    tags: ["Laravel", "Tailwind CSS", "Flowbite", "MySQL", "JavaScript"],
+    gitHub: "https://github.com/rafif2112/pengaduan-masyarakat",
+    demo: "",
+  },
+  {
+    title: "Perpustakaan",
+    image: "projects/perpus-app.png",
+    tags: ["Laravel", "Tailwind CSS", "Flowbite", "MySQL", "JavaScript"],
+    gitHub: "https://github.com/rafif2112/perpus-app",
+    demo: "",
   },
   { 
     title: "Cashier App",
@@ -142,6 +159,20 @@ export const projects: ProjectType[] = [
     tags: ["Laravel", "Tailwind CSS", "Flowbite", "MySQL", "JavaScript"],
     gitHub: "https://github.com/rafif2112/rayon-cicurug2",
     demo: "https://cicurug2.my.id/",
+  },
+  { 
+    title: "Kalkulator Index Masa Tubuh",
+    image: "projects/imt.png",
+    tags: ["PHP", "Bootstrap", "HTML" ],
+    gitHub: "https://github.com/rafif2112/IMT",
+    demo: "",
+  },
+  {
+    title: "Kalkulator Bunga",
+    image: "projects/kalkulator-bunga.png",
+    tags: ["HTML", "CSS", "Tailwind CSS", "Flowbite", "JavaScript"],
+    gitHub: "https://github.com/rafif2112/kalkulator-bunga",
+    demo: "https://kalkulatorbunga.netlify.app/",
   },
 ];
 

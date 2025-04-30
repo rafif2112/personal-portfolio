@@ -1,4 +1,4 @@
-import { gitHubUrl, hygraphUrl, leetCodeUrl } from "@/constants/baseURL";
+import { gitHubUrl, hygraphUrl } from "@/constants/baseURL";
 import {
   ApolloClient,
   ApolloLink,
@@ -15,7 +15,6 @@ export const { getClient } = registerApolloClient(() => {
         endpoints: {
           hygraph: hygraphUrl,
           gitHub: gitHubUrl,
-          leetCode: leetCodeUrl,
         },
         getContext: (endpoint) => {
           if (endpoint === "gitHub") {
