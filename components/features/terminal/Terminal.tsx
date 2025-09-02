@@ -38,31 +38,34 @@ const Terminal: React.FC = () => {
           id: Date.now(),
         });
         break;
-      case "next about":
+      case "about":
         newOutput.push({
           content: <TerminalAbout />,
           id: Date.now(),
         });
         break;
-      case "next skills":
+      case "skills":
         newOutput.push({
           content: <TerminalSkills />,
           id: Date.now(),
         });
         break;
-      case "next projects":
+      case "projects":
         newOutput.push({
           content: <TerminalProjects />,
           id: Date.now(),
         });
         break;
-      case "next contact":
+      case "contact":
         newOutput.push({
           content: <TerminalContact />,
           id: Date.now(),
         });
         break;
       case "clear":
+        newOutput = [];
+        break;
+      case "cls":
         newOutput = [];
         break;
       default:
