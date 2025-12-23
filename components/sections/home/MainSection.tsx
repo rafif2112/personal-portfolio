@@ -21,10 +21,15 @@ export default function MainSection({ }: Props) {
               </span>
             </h1>
             <p className="mt-2 max-w-lg text-slate-700 dark:text-slate-300 lg:text-xl">
-              I am a beginner in the world of programming
+              I am Junior Full Stack Web Developer and Junior Mobile Developer
+              with experience in React.js, Vue.js, Next.js, Tailwind CSS, Laravel, and
+              Flutter.
             </p>
             <Button className="!dark:text-dark mt-5 flex items-center gap-2 !bg-blue-500 shadow-2xl hover:!bg-blue-400/50">
-              <a href="/z.pdf" download className="flex gap-3">
+              <a
+                href="/CV Muhamad Rafif.pdf"
+                download="CV Muhamad Rafif.pdf"
+                className="flex gap-3">
                 Download CV
                 <Download size={18} />
               </a>

@@ -6,7 +6,8 @@ export default function TerminalHelp({}: Props) {
       <span className="text-accent_primary">muhamadrafif.vercel.app</span>
       <span>- - - - - - - -</span>
       <span className="">
-        Usage :<span className="text-accent_primary"> next </span>
+        Usage :
+        <span className="text-accent_primary"> </span>
         [command]
       </span>
       <div className="">

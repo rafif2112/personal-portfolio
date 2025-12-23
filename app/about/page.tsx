@@ -4,10 +4,10 @@ import { Button } from "@/components/ui/button";
 import { socials } from "@/constants/dummy";
 import { Download } from "lucide-react";
 import Image from "next/image";
-import AboutImage from "@/public/mrafif.jpg";
+import AboutImage from "@/public/profile.jpeg";
 type Props = {};
 
-export default function page({}: Props) {
+export default function page({ }: Props) {
   return (
     <main className="px-container py-container min-h-screen">
       <section className="flex flex-col items-center gap-16">
@@ -22,8 +22,8 @@ export default function page({}: Props) {
               Muhamad Rafif
             </header>
             <p className="mt-5 text-slate-500 dark:text-slate-300">
-              I am a Junior programmer with skills in React.js, Next.js, Tailwind CSS, and Laravel. 
-              I actively participate in various projects and extracurricular activities that enhance my leadership and teamwork abilities. 
+              I am a Junior programmer with skills in React.js, Next.js, Tailwind CSS, and Laravel.
+              I actively participate in various projects and extracurricular activities that enhance my leadership and teamwork abilities.
               I am ready for new challenges. Contact me for more information or collaboration opportunities.
             </p>
 
@@ -64,6 +64,7 @@ export default function page({}: Props) {
               fill
               placeholder="blur"
               priority
+              className="object-cover"
             />
           </div>
         </div>
