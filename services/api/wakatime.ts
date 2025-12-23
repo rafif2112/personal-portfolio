@@ -3,10 +3,20 @@ import { wakaTimeUrl } from "@/constants/baseURL";
 import axios from "axios";
 
 export const getWakaTimeWeekStat = async (): Promise<WakaWeek> => {
+  // const res = (
+  //   await axios.get(
+  //     `${wakaTimeUrl}/api/v1/users/current/stats/last_7_days?including_today=true&api_key=${process.env.WAKATIME_API_KEY}`,
+  //   )
+  // ).data;
   const res = (
-    await axios.get(
-      `${wakaTimeUrl}/api/v1/users/current/stats/last_7_days?including_today=true&api_key=${process.env.WAKATIME_API_KEY}`,
-    )
+    await axios.get(`${wakaTimeUrl}/api/v1/users/current/stats/last_7_days`, {
+      params: { including_today: true },
+      auth: {
+        username: process.env.WAKATIME_API_KEY || "",
+        password: "",
+      },
+      timeout: 10000,
+    })
   ).data;
 
   const stat = {

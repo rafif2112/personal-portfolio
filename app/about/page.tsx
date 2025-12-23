@@ -30,8 +30,8 @@ export default function page({}: Props) {
             <div className="mt-5 flex items-end gap-3">
               <Button className="hover:!bg-accent_hover mt-5 flex items-center gap-2 !bg-accent_primary !text-dark shadow-2xl">
                 <a
-                  href="/myCV.pdf"
-                  download="myCV.pdf"
+                  href="/CV Muhamad Rafif.pdf"
+                  download="CV Muhamad Rafif.pdf"
                   className="flex gap-3 text-white dark:text-dark"
                 >
                   Download CV

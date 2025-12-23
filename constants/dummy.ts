@@ -69,6 +69,7 @@ export const skillsLanguage: SkillType = [
   { title: "JavaScript", logo: "skills/javascript.png" },
   { title: "TypeScript", logo: "skills/typescript.png" },
   { title: "PHP", logo: "skills/php.png" },
+  { title: "Dart", logo: "skills/dart.png" },
 ];
 
 export const skillsLibrary: SkillType = [
@@ -119,6 +120,20 @@ export const projects: ProjectType[] = [
   //   demo: "https://my-alquran-id.vercel.app/",
   // },
   {
+    title: "Rayon Cicurug 2",
+    image: "projects/rayon-cic2.png",
+    tags: ["Laravel", "Tailwind CSS", "Flowbite", "MySQL", "JavaScript"],
+    gitHub: "https://github.com/rafif2112/rayon-cicurug2",
+    demo: "https://cicurug2.my.id/",
+  },
+  {
+    title: "HRIS App",
+    image: "projects/hris-app.png",
+    tags: ["Laravel", "Vue JS", "Tailwind CSS", "Pinia", "Flowbite", "PostgreSQL"],
+    gitHub: "",
+    demo: "",
+  },
+  {
     title: "Portfolio laravel",
     image: "projects/portfolio-laravel.png",
     tags: ["Laravel", "Tailwind CSS", "Flowbite", "MySQL", "JavaScript"],
@@ -146,19 +161,19 @@ export const projects: ProjectType[] = [
     gitHub: "https://github.com/rafif2112/perpus-app",
     demo: "",
   },
+  {
+    title: "Kantinku",
+    image: "projects/kantinku.png",
+    tags: ["Laravel", "Tailwind CSS", "Flowbite", "MySQL", "JavaScript"],
+    gitHub: "https://github.com/rafif2112/kantinku",
+    demo: "",
+  },
   { 
     title: "Cashier App",
     image: "projects/cashier-app.png",
     tags: ["PHP", "Tailwind CSS", "JavaScript", "HTML" ],
     gitHub: "https://github.com/rafif2112/cashier-app",
     demo: "https://rafif.free.nf/app",
-  },
-  {
-    title: "Rayon Cicurug 2",
-    image: "projects/rayon-cic2.png",
-    tags: ["Laravel", "Tailwind CSS", "Flowbite", "MySQL", "JavaScript"],
-    gitHub: "https://github.com/rafif2112/rayon-cicurug2",
-    demo: "https://cicurug2.my.id/",
   },
   { 
     title: "Kalkulator Index Masa Tubuh",

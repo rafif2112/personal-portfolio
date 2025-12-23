@@ -18,15 +18,17 @@ export default function ProjectCard({
         <p className="text-lg font-semibold">{title}</p>
         <div className="my-2 flex flex-wrap gap-1">{children}</div>
         <div className="mt-3 flex gap-5">
-          <a
-            href={github}
-            target="_blank"
-            className="hover:text-accent_primary flex items-center gap-2"
-          >
-            <GithubIcon size={18} />
-            Repository
-          </a>
-          {  visit === "" ? null : (
+          {github === "" ? null : (
+            <a
+              href={github}
+              target="_blank"
+              className="hover:text-accent_primary flex items-center gap-2"
+            >
+              <GithubIcon size={18} />
+              Repository
+            </a>
+          )}
+          {visit === "" ? null : (
             <a
               href={visit}
               target="_blank"
